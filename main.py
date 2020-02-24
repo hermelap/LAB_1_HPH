@@ -26,7 +26,7 @@ df_pe = fn.f_precios_masivos(p0_fini=fini, p1_ffin=ffin, p2_gran=OA_Gn,
 
 # Movimiento
 
-MA_Fast = 50 # Promedio movil de menor rezago
-MA_Slow = 100 # Promedio movil de mayor rezago
+MA_Fast = 50  # Promedio movil de menor rezago
+MA_Slow = 100  # Promedio movil de mayor rezago
 
 fn.decision(df_pe, MA_Fast, MA_Slow)
